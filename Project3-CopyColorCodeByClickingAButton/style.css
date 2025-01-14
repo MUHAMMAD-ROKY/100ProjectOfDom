@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    padding: 1rem 3rem;
+    margin: 1rem 0;
+    outline: none;
+    background-color: rgb(12, 217, 253);
+    color:rgb(1, 46, 248);
+    font-family:fantasy;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:rgb(221, 11, 116);
+    color:black;
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-shadow: -1px -1px 0px rgb(206, 47, 255), 1px -1px 0px rgb(206, 47, 255), -1px 1px 0px rgb(206, 47, 255),1px 1px 0px rgb(206, 47, 255);
+    text-align: center;
+}
+#output{
+    padding:  10px 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.copy-btn{
+    background-color: azure;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.copy-btn:hover{
+    background-color:rgb(60, 255, 0);
+}
+#copy-btn{
+    padding: 5px 7px;
+    text-shadow: 1px 1px 1px rgb(131, 7, 65);
+    border-radius: 10px;
+}
